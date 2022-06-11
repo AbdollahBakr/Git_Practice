@@ -2,10 +2,10 @@ class User {
     
     var id: String?
 
-    var name: String?
+    var name: Int?
     
     func getUserId() -> String {
-        return self.id
+        return self.id 
     }
     
     func getUserName() -> String {
