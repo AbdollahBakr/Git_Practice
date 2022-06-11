@@ -4,7 +4,7 @@ class User {
 
     var name: Int?
     
-    func getUsername() -> String {
+    func getUserId() -> String {
         return self.id 
     }
     
