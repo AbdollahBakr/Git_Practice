@@ -1,5 +1,5 @@
 class User {
-    var id: String?
+    var id2: String?
     var name: String?
     
     func getUserId() -> String {
