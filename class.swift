@@ -1,5 +1,7 @@
 class User {
-    var id: Int?
+    
+    var id: String?
+
     var name: String?
     
     func getUserId() -> String {
@@ -7,6 +9,8 @@ class User {
     }
     
     func getUserName() -> String {
-        return self.name + "LastName"
+        
+        return self.name
+
     }
 }
