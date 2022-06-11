@@ -7,6 +7,6 @@ class User {
     }
     
     func getUserName() -> String {
-        return self.name
+        return self.name + "Family Name"
     }
 }
