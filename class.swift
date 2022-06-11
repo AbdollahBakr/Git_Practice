@@ -1,5 +1,5 @@
 class User {
-    var id: String?
+    var id: Int?
     var name: String?
     
     func getUserId() -> String {
@@ -7,6 +7,6 @@ class User {
     }
     
     func getUserName() -> String {
-        return self.name.append("lastName") 
+        return self.name + "familyName"
     }
 }
