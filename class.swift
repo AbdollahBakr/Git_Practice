@@ -7,6 +7,6 @@ class User {
     }
     
     func getUserName() -> String {
-        return self.name.append("lastName") 
+        return self.name
     }
 }
